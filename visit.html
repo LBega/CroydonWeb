@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<link rel="stylesheet" href="../indexcss.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body, html {
+  
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 { margin: 0px; }
+
+</style>
+<title>Visit Croydon</title>
+</head>
+<body>
+  <main>
+<div class="hero-image">
+  <div>
+    <img src="/images/CoACroydon.png" alt="Coat of Arms" style="width:10%;height:auto;">
+  </div>
+ 
+  <div class="hero-text">
+    <h1 style="font-size:60px">The Town of</h1>
+    <h1 style="font-size:100px">Croydon</h1>
+    
+  </div>
+  <div class="hero-text" style="text-align:left; top:0;">
+    <h3>Sanitate Crescamus - Let us grow in health</h3>
+    <h6>Founded in 1276</h6>
+  </div>
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="history.html">History</a>
+    <a class="active" href="visit.html">Visit</a>
+  </div>
+<br>
+
+   <div class="container">
+    <div class="jumbotron">
+      <div class="container-fluid">     
+        <div class="row">
+          <div class="col-md-7">
+            <h2>Croydon landmarks and activities. </h2>
+            <div class ="clearfix">
+              <img src="/images/listWindmill.jpg" alt="A photo of a windmill." class="ListImage">
+              
+              <a href="https://www.shirleywindmill.org.uk/">Shirley Windmill site</a>
+              <br>
+              <br>
+              <a href="https://commons.wikimedia.org/wiki/File:Shirley_Windmill_Sept_2017_004.jpg">[Photo credited to MrsEllacott and wikimedia]</a>
+            
+          </div>
+            <br>
+            <div class ="clearfix">
+              
+              <img src="/images/Ikea_croydon.jpg" alt="A photo of a factory that has been converted into an Ikea." class="ListImage">
+              
+              <a href="https://www.ikea.com/gb/en/stores/croydon/">Ikea site</a>
+              <br>
+              <br>
+              
+              <a href="https://commons.wikimedia.org/wiki/File:Ikea_croydon.jpg">[Photo credited to Awiki100 and wikimedia]</a>
+            
+            </div>
+          <br>
+            <div class ="clearfix">
+              <img src="/images/Airport.jpg" alt="A photo of Croydon Airport." class="ListImage">
+              <a href="https://www.historiccroydonairport.org.uk/">Croydon Airport site</a>
+              <br>
+              <br>
+              
+              <a href="https://commons.wikimedia.org/wiki/File:Airport_House_at_the_old_Croydon_Aerodrome_-_geograph.org.uk_-_1571720.jpg">[Photo credited to tristan forward and wikimedia]</a>
+       
+            </div>
+            <br>
+          </div>
+            <div class="col-md-5">
+              <h2>Press button to see more info</h2>
+              <div class="tab">
+                <button class="tablinks btnstyle" onclick="openCity(event, 'Windmilltab')">Windmill</button>
+                <button class="tablinks btnstyle" onclick="openCity(event, 'Ikeatab')">Ikea</button>
+                <button class="tablinks btnstyle" onclick="openCity(event, 'Airporttab')">Airport</button>
+              </div> 
+              <div id="Windmilltab" class="tabcontent" style="display:none;">
+                <h3>Windmill</h3>
+                <p>Shirley windmill is one of only 4 open windmills in Greater London that is open to the public and whenever there is an open day it is usually packed full of visitors. 
+                  Shirley windmill is a relatively young windmill having being built in 1854 and it ceased production in 1890. 
+                  This means that most of the equipment is in good quality and is worth visiting and seeing.
+                  Its a great day out for both children and adults with activities for both.
+                  The tours are guided by experts who are always happy to answer any questions you might have about the windmill.
+                  
+                </p>
+                <br>
+              </div>
+              
+              <div id="Ikeatab" class="tabcontent" style="display:none">
+                <h3>Ikea</h3>
+                <p>At a first glance an Ikea does not seem like a real tourist attraction however the Croydon Ikea is rather special. 
+                  This Ikea has 2 massive chimneys which are branded with the iconic yellow and blue. 
+                  This is because before the building was an Ikea it was named the Croydon B power station. 
+                  Due to some issues during its construction it was smaller than intended. 
+                  Eventually the factory went out of commission and until 1991 lay dormant. 
+                  Ikea then decided to build a store in this factory however initially Ikea wanted to knock the iconic towers down. 
+                  The council refused to let them and thus they reached the compromise of the classic yellow and blue paint being used to colour the chimneys. 
+                  The store is now one of the largest Ikeas in the UK.
+                </p>
+                <br>
+              </div>
+              
+              <div id="Airporttab" class="tabcontent" style="display:none">
+                <h3>Airport</h3>
+                <p>Historically Croydon airport has been significant for the entire country of England during both world wars and has been converted into a museum to commemorate that fact. 
+                  The staff lead passionate tours and there are many interesting things to see and learn throughout the museum. 
+                  Inside the museum there are many WW1 and WW2 era planes hung up around the hangar and during the tour you get to see inside the worlds oldest plane control tower.
+
+                </p>
+                <br>
+                <p>
+                  Croydon airport is open to visitors on every first Sunday of the month. Tickets for adults are £6 and children under 16 enter for free.
+                </p>
+                <br>
+              </div>
+              <!--"https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tabs I used this code from w3 schools and modified it for my own code. All the javascript is the same."-->
+              <script>
+                function openCity(evt, cityName) {
+                  var i, tabcontent, tablinks;
+                  tabcontent = document.getElementsByClassName("tabcontent");
+                  for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                  }
+                  tablinks = document.getElementsByClassName("tablinks");
+                  for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                  }
+                  document.getElementById(cityName).style.display = "block";
+                  evt.currentTarget.className += " active";
+                }
+                </script>
+            </div>
+        </div>
+    
+    </div>
+  </div>
+</div>
+  
+  
+    <footer class="Footer">
+    <p>Leonardo Bega</p>
+    <p>Contact me at u21lb22@abdn.ac.uk</p>
+  </footer>
+  </div>
+</main>
+</body>
+</html>

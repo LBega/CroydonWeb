@@ -1,0 +1,7 @@
+Name: Leonardo Bega
+StudentId: 52211210
+
+I decided to go with a colour scheme of blue and white to compliment my background choice with splashed of dark grey/black when I needed a third colour to tie the website together. I placed the navigation bar in a position that enabled it to be seen from the top of the page and coloured it grey. This meant it was able to be easily seen when the page was loaded so that the user can easily find the page that they want to find. I also created a favicon to help make the website seem more official. 
+
+
+I faced a couple issues when writing my code. Firstly making the background image stay stationary while you could scroll around the website took some thought. I ended up achieving this by putting most of my code inside this background <div> and setup some css to format the image properly. I then created a bootstrap jumbotron container which held all my text and images inside. I also had a little difficulty when setting up the coat of arms for the banner of my webpage however with inline css I got it to work as I had some embedded css that was overriding my external css. One other thing I found was that for my image referencing it was difficult to find free domain images so I ended up using many of mine from Wikimedia. While it is a great resource a couple of the talking points I wanted to cover did not have images so thus I could not use an image and in places I had to scrap the whole talking point. 
